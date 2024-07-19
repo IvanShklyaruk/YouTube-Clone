@@ -11,11 +11,11 @@ import tech from '../assets/tech.png'
 import music from '../assets/music.png'
 import blogs from '../assets/blogs.png'
 import news from '../assets/news.png'
-import jack from '../assets/jack.png'
-import simon from '../assets/simon.png'
-import tom from '../assets/tom.png'
-import megan from '../assets/megan.png'
-import cameron from '../assets/cameron.png'
+import pewdiepie from '../assets/pewdiepie.png'
+import mrbeast from '../assets/mrbeast.png'
+import bieber from '../assets/bieber.png'
+import craft from '../assets/craft.png'
+import nas from '../assets/nas.png'
 
 const Sidebar = ({sidebar,category,setCategory}) => {
   return (
@@ -34,11 +34,11 @@ const Sidebar = ({sidebar,category,setCategory}) => {
         </div>
         <div className="subscribed-list">
             <h3>SUBSCRIBED</h3>
-            <div className={`side-link`}><img src={jack} alt="" /><p>PewDiePie</p></div>
-            <div className={`side-link`}><img src={simon} alt="" /><p>MrBeast</p></div>
-            <div className={`side-link`}><img src={tom} alt="" /><p>Justin Bieber</p></div>
-            <div className={`side-link`}><img src={megan} alt="" /><p>5-Minute Crafts</p></div>
-            <div className={`side-link`}><img src={cameron} alt="" /><p>Nas Daily</p></div>
+            <div className={`side-link`}><img src={pewdiepie} alt="" /><p>PewDiePie</p></div>
+            <div className={`side-link`}><img src={mrbeast} alt="" /><p>MrBeast</p></div>
+            <div className={`side-link`}><img src={bieber} alt="" /><p>Justin Bieber</p></div>
+            <div className={`side-link`}><img src={craft} alt="" /><p>5-Minute Crafts</p></div>
+            <div className={`side-link`}><img src={nas} alt="" /><p>Nas Daily</p></div>
         </div>
     </div>
   )
